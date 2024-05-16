@@ -23,11 +23,15 @@ class MaxQueue:
     def deQueue(self) -> int:
         if self.queue:
             curr = self.queue.popleft()
-            max = self.maxQueue.popleft()
-            while self.maxQueue and curr != max:
-                max = self.maxQueue.popleft()
+            curr_max = self.maxQueue[0]
+            if curr == curr_max:
+                self.maxQueue.popleft()
 
             return curr
+
+
+#         curr = 18
+#         max  = 18
 
 
 if __name__ == '__main__':
@@ -37,7 +41,7 @@ if __name__ == '__main__':
     print(q.maxQueue)
     q.enQueue(15)
     q.enQueue(15)
-    q.enQueue(13)
+    q.enQueue(16)
     q.enQueue(12)
     q.enQueue(11)
     q.deQueue()
