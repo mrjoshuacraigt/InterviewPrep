@@ -1,4 +1,7 @@
 def insertion_sort(arr):
+    if arr is None:
+        return
+
     for i in range(1, len(arr)):
         key = arr[i]
 
@@ -12,3 +15,6 @@ if __name__ == '__main__':
     array = [23, 1, 10, 5, 2]
     insertion_sort(array)
     print(array)
+
+    array = None
+    insertion_sort(array)

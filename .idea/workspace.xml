@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6766e79b-af22-47a9-aa98-41edaa277171" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/queues/Sorting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting/MergeSort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queues/Sorting.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/InsertionSort.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +35,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.InsertionSort.executor": "Run",
     "Python.MaxQueue.executor": "Run",
+    "Python.MergeSort.executor": "Run",
     "Python.Queue.executor": "Debug",
     "Python.Sorting.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -48,7 +51,35 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Sorting">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sorting" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.InsertionSort">
+    <configuration name="InsertionSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InterviewPractice" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/queues" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sorting/InsertionSort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="MaxQueue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterviewPractice" />
       <option name="ENV_FILES" value="" />
@@ -72,7 +103,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Sorting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterviewPractice" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,12 +112,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/queues" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sorting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/queues/Sorting.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sorting/MergeSort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,7 +128,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Sorting" />
+        <item itemvalue="Python.InsertionSort" />
+        <item itemvalue="Python.MergeSort" />
         <item itemvalue="Python.MaxQueue" />
       </list>
     </recent_temporary>
@@ -118,7 +150,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715643436109</updated>
-      <workItem from="1715643440824" duration="8453000" />
+      <workItem from="1715643440824" duration="16516000" />
     </task>
     <servers />
   </component>
@@ -137,7 +169,8 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/InterviewPractice$Sorting.coverage" NAME="Sorting Coverage Results" MODIFIED="1715749155256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queues" />
+    <SUITE FILE_PATH="coverage/InterviewPractice$MergeSort.coverage" NAME="MergeSort Coverage Results" MODIFIED="1716170220835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sorting" />
+    <SUITE FILE_PATH="coverage/InterviewPractice$Sorting.coverage" NAME="InsertionSort Coverage Results" MODIFIED="1716239836515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queues" />
     <SUITE FILE_PATH="coverage/InterviewPractice$Queue.coverage" NAME="MaxQueue Coverage Results" MODIFIED="1715648922821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queues" />
   </component>
 </project>
