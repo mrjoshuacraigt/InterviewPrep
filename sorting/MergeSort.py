@@ -1,6 +1,6 @@
 def mergeSort(array: [int]) -> [int]:
     # Base Case array len == 0 or len == 1
-    if len(array) <= 1 :
+    if array is None or len(array) <= 1:
         return array
 
     # split the array
@@ -30,3 +30,5 @@ def mergeSort(array: [int]) -> [int]:
 
 if __name__ == '__main__':
     print(mergeSort([10, 9, 8, 7, 6, 5, 4, 3, 2, 1]))
+    print(mergeSort([10]))
+    mergeSort(None)
