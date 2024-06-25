@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6766e79b-af22-47a9-aa98-41edaa277171" name="Changes" comment="updated">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/BST.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/TreeNode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/InterviewPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/InterviewPractice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6766e79b-af22-47a9-aa98-41edaa277171" name="Changes" comment="added binary search">
+      <change afterPath="$PROJECT_DIR$/heap/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heap/heapifyfun.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorting/QuickSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/QuickSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/MergeSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/MergeSort.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +36,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.BinarySearch.executor": "Run",
     "Python.BST.executor": "Run",
     "Python.MaxQueue.executor": "Debug",
     "Python.MergeSort.executor": "Debug",
     "Python.Queue.executor": "Debug",
     "Python.QuickSort.executor": "Run",
+    "Python.Sorting.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -58,31 +55,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.BST">
-    <configuration name="BST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="InterviewPractice" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Trees" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trees/BST.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="MaxQueue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sorting" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.QuickSort">
+    <configuration name="InsertionSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterviewPractice" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,7 +75,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/queues/MaxQueue.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sorting/InsertionSort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,11 +130,60 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="coordinates" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InterviewPractice" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/heap" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/heap/coordinates.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="heapifyfun" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InterviewPractice" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/heap" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/heap/heapifyfun.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.heapifyfun" />
+        <item itemvalue="Python.coordinates" />
+        <item itemvalue="Python.BinarySearch" />
         <item itemvalue="Python.BST" />
         <item itemvalue="Python.MergeSort" />
-        <item itemvalue="Python.QuickSort" />
+        <item itemvalue="Python.InsertionSort" />
         <item itemvalue="Python.MaxQueue" />
       </list>
     </recent_temporary>
@@ -176,10 +204,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715643436109</updated>
-      <workItem from="1715643440824" duration="5486000" />
-      <workItem from="1715726001316" duration="6560000" />
-      <workItem from="1716328929695" duration="4806000" />
-      <workItem from="1717463545174" duration="9168000" />
+      <workItem from="1715643440824" duration="22459000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <option name="closed" value="true" />
@@ -189,7 +214,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715898963598</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added merge sort">
+      <option name="closed" value="true" />
+      <created>1716328963216</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716328963216</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added binary search">
+      <option name="closed" value="true" />
+      <created>1716943188513</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716943188513</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,8 +248,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+    <MESSAGE value="added merge sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="added merge sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -218,14 +259,30 @@
           <line>26</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sorting/QuickSort.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/heap/coordinates.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/heap/coordinates.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/InterviewPractice$BinarySearch.coverage" NAME="BinarySearch Coverage Results" MODIFIED="1716943151220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trees" />
     <SUITE FILE_PATH="coverage/InterviewPrep$QuickSort.coverage" NAME="QuickSort Coverage Results" MODIFIED="1716330967853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sorting" />
+    <SUITE FILE_PATH="coverage/InterviewPractice$coordinates.coverage" NAME="coordinates Coverage Results" MODIFIED="1718934995403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/heap" />
     <SUITE FILE_PATH="coverage/InterviewPrep$MaxQueue.coverage" NAME="MaxQueue Coverage Results" MODIFIED="1715726907842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queues" />
     <SUITE FILE_PATH="coverage/InterviewPractice$Queue.coverage" NAME="MaxQueue Coverage Results" MODIFIED="1715648922821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queues" />
-    <SUITE FILE_PATH="coverage/InterviewPrep$MergeSort.coverage" NAME="MergeSort Coverage Results" MODIFIED="1717464061433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sorting" />
-    <SUITE FILE_PATH="coverage/InterviewPrep$BST.coverage" NAME="BST Coverage Results" MODIFIED="1717543291333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trees" />
+    <SUITE FILE_PATH="coverage/InterviewPractice$QuickSort.coverage" NAME="QuickSort Coverage Results" MODIFIED="1716257892842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sorting" />
   </component>
 </project>
