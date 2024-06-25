@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6766e79b-af22-47a9-aa98-41edaa277171" name="Changes" comment="added merge sort">
+    <list default="true" id="6766e79b-af22-47a9-aa98-41edaa277171" name="Changes" comment="updated">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/BST.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/TreeNode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/InterviewPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/InterviewPractice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorting/MergeSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/MergeSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/QuickSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/QuickSort.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +30,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2gQx7YdIpwDJKxadPc7DunVFAEK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -34,30 +41,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.InsertionSort.executor": "Run",
-    "Python.MaxQueue.executor": "Run",
-    "Python.MergeSort.executor": "Run",
+    "Python.BST.executor": "Run",
+    "Python.MaxQueue.executor": "Debug",
+    "Python.MergeSort.executor": "Debug",
     "Python.Queue.executor": "Debug",
     "Python.QuickSort.executor": "Run",
-    "Python.Sorting.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/joshuataylor/git/InterviewPrep",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/sorting" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Python.QuickSort">
-    <configuration name="InsertionSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.BST">
+    <configuration name="BST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterviewPractice" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -66,12 +68,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/queues" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Trees" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sorting/InsertionSort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trees/BST.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,9 +153,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.QuickSort" />
+        <item itemvalue="Python.BST" />
         <item itemvalue="Python.MergeSort" />
-        <item itemvalue="Python.InsertionSort" />
+        <item itemvalue="Python.QuickSort" />
         <item itemvalue="Python.MaxQueue" />
       </list>
     </recent_temporary>
@@ -161,8 +163,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PY-241.15989.155" />
-        <option value="bundled-python-sdk-babbdf50b680-7c6932dee5e4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.15989.155" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17011.127" />
+        <option value="bundled-python-sdk-48aec45f0201-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17011.127" />
       </set>
     </attachedChunks>
   </component>
@@ -174,15 +176,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715643436109</updated>
-      <workItem from="1715643440824" duration="22459000" />
+      <workItem from="1715643440824" duration="5486000" />
+      <workItem from="1715726001316" duration="6560000" />
+      <workItem from="1716328929695" duration="4806000" />
+      <workItem from="1717463545174" duration="9168000" />
     </task>
-    <task id="LOCAL-00001" summary="added merge sort">
+    <task id="LOCAL-00001" summary="updated">
       <option name="closed" value="true" />
-      <created>1716240065761</created>
+      <created>1715898963598</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1716240065761</updated>
+      <updated>1715898963598</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -190,9 +195,20 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added merge sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="added merge sort" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -202,18 +218,14 @@
           <line>26</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/sorting/QuickSort.py</url>
-          <line>79</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/InterviewPractice$MergeSort.coverage" NAME="MergeSort Coverage Results" MODIFIED="1716240154168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sorting" />
-    <SUITE FILE_PATH="coverage/InterviewPractice$Sorting.coverage" NAME="InsertionSort Coverage Results" MODIFIED="1716239959663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queues" />
+    <SUITE FILE_PATH="coverage/InterviewPrep$QuickSort.coverage" NAME="QuickSort Coverage Results" MODIFIED="1716330967853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sorting" />
+    <SUITE FILE_PATH="coverage/InterviewPrep$MaxQueue.coverage" NAME="MaxQueue Coverage Results" MODIFIED="1715726907842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queues" />
     <SUITE FILE_PATH="coverage/InterviewPractice$Queue.coverage" NAME="MaxQueue Coverage Results" MODIFIED="1715648922821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queues" />
-    <SUITE FILE_PATH="coverage/InterviewPractice$QuickSort.coverage" NAME="QuickSort Coverage Results" MODIFIED="1716257892842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sorting" />
+    <SUITE FILE_PATH="coverage/InterviewPrep$MergeSort.coverage" NAME="MergeSort Coverage Results" MODIFIED="1717464061433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sorting" />
+    <SUITE FILE_PATH="coverage/InterviewPrep$BST.coverage" NAME="BST Coverage Results" MODIFIED="1717543291333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trees" />
   </component>
 </project>

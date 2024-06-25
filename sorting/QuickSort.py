@@ -1,7 +1,4 @@
-
-
-
-def quickSortRecursive(array: [int], l:int = None, r: int = None):
+def quickSortRecursive(array: [int], l: int = None, r: int = None):
     if array is None or len(array) <= 1:
         return
 
@@ -27,13 +24,9 @@ def quickSortRecursive(array: [int], l:int = None, r: int = None):
     # swap pivot
     array[i], array[r] = array[r], array[i]
 
-
-
-
     # call quicksort on left and right
-    quickSortRecursive(array, l,  i - 1)
-    quickSortRecursive(array, i + 1, j)
-
+    quickSortRecursive(array, l, i - 1)
+    quickSortRecursive(array, i + 1, r)
 
 
 def quickSortIterative(array, k) -> int:
@@ -41,17 +34,18 @@ def quickSortIterative(array, k) -> int:
         return
 
     itarget = len(array) - k
-
-
     stack = []
+
     stack.append(0)
     stack.append(len(array) - 1)
 
     while stack:
+
         ihi = stack.pop()
         ilo = stack.pop()
 
         pivot = array[ihi]
+
         i = ilo
         for j in range(ilo, ihi):
             if array[j] < pivot:
@@ -69,14 +63,11 @@ def quickSortIterative(array, k) -> int:
             stack.append(len(array) - 1)
         else:
             stack.append(0)
-            stack.append(i -1)
-
-
-
+            stack.append(i - 1)
 
 
 if __name__ == '__main__':
-    arr = [88,55,3,2,1]
+    arr = [88, 55, 3, 2, 1]
     # quickSortRecursive(arr)
     print(arr)
 
@@ -85,6 +76,3 @@ if __name__ == '__main__':
     print(quickSortIterative(arr, 3))
     print(quickSortIterative(arr, 4))
     print(quickSortIterative(arr, 5))
-
-
-
